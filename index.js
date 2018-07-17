@@ -4,7 +4,8 @@ function happyHolidays() {
 }
 
 function happyHolidaysTo(name) {
-  return "Happy Holidays, ${name}"
+  var output = "Happy Holidays, ${name}";
+  return "Happy Holidays, \$\{name\}"
 }
 
 function happyHolidaysTo(holiday, name) {
